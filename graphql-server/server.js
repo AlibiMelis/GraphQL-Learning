@@ -9,7 +9,6 @@ const {
   GraphQLNonNull,
   GraphQLInt,
 } = require("graphql");
-const { argsToArgsConfig } = require("graphql/type/definition");
 
 const authors = [
   { id: 1, name: "J. K. Rowling" },
